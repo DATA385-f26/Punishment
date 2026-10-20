@@ -7,7 +7,7 @@ project:
 
 website:
   page-navigation: true
-  title: "TITLE"
+  title: "Punishment"
   description: "Project 01: Data Collection Facts Label"
 
   navbar: 
@@ -17,10 +17,10 @@ website:
         file: index.qmd
       - text: Dataset Details
         menu:
-        - text: "Person 1"
+        - text: "Jackson Pedeupe"
           href: person1.qmd
-        - text: "Person 2"
-          href: person2.qmd
+        - text: "Elazar V. Summerfeld"
+          href: elazarvilensky.qmd
       - text: "Comparative Analysis"
         href: comparison.qmd
 
