@@ -4,8 +4,9 @@ title: "Investigating a Dataset's Ingredients"
 
 ## Topic Area
 
-Introduce your topic area. What did you choose, why did you choose it? 
+We are focusing on Geographic and demographic relationships between punitive outcomes. We chose this topic area because we wanted to look at correlations between factors such as income, or population sizes in California compared to incarceration rates.
 
 ## Research Question
 
-State your research question that you hope to answer with data. 
+What are the relationships between county and demographics and punitive outcomes?
+ 

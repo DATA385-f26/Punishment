@@ -18,7 +18,7 @@ website:
       - text: Dataset Details
         menu:
         - text: "Jackson Pedeupe"
-          href: person1.qmd
+          href: jacksonpedeupe.qmd
         - text: "Elazar V. Summerfeld"
           href: elazarvilensky.qmd
       - text: "Comparative Analysis"
