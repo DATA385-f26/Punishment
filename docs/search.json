@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "jacksonpedeupe.html",
+    "href": "jacksonpedeupe.html",
+    "title": "Data Collection Facts Label",
+    "section": "",
+    "text": "Data Source Facts Label\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource Identity\n\n\n\n\n\n\nSource name\n\n\n2023 Rural–Urban Continuum Codes\n\n\n\n\nDomain/topic\n\n\nRural–urban geography and county classification\n\n\n\n\nSource type\n\n\nPublic government dataset\n\n\n\n\n\n\n\n\n\n\n\nCollection Context\n\n\n\n\n\n\nCollector/producer\n\n\nU.S. Department of Agriculture, Economic Research Service\n\n\n\n\nOriginal purpose\n\n\nThe codes allow researchers, policy makers, and others to view county-level data by finer residential groups when analysing trends related to population density and metro influence.\n\n\n\n\nCollection method\n\n\nThe division of counties as either metro or nonmetro is based on the 2023 Office of Management and Budget delineation of metro areas. USDA ERS then uses Census population data and commuting data to divide counties into nine categories based on population size, urbanization, and proximity to metro areas.\n\n\n\n\nRecord-creation event\n\n\nA record gets created when USDA ERS classifies a county or county-equivalent during the 2023 Rural-Urban Continuum Codes update.\n\n\n\n\n\n\n\n\n\n\n\nObservation and Scope\n\n\n\n\n\n\nUnit of observation\n\n\nA county or county-equivalent classified by its rural–urban characteristics.\n\n\n\n\nPopulation or objects represented\n\n\nU.S. counties and county-equivalents, including those in U.S. territories.\n\n\n\n\nTime period covered\n\n\nThe 2023 classification is based on Census population data from 2020, American Community Survey commuting data from 2016–2020, and metropolitan area definitions from 2023.\n\n\n\n\nGeographic area coverage\n\n\nThe entirety of the US, including all US territories.\n\n\n\n\n\n\n\n\n\n\n\nVariables and Data Structure\n\n\n\n\n\n\nMain variables/fields\n\n\nCounty FIPS code, State, County Name, 2020 Population, 2023 Rural Urban Continuum Code (RUCC) and a discription of the rural urban classification.\n\n\n\n\nData types included\n\n\nFIPS codes are currently stored as double (dbl), but I plan to convert them to character (chr) because they are identifiers rather than quantities. All remaining columns are stored as character (chr).\n\n\n\n\nDirect measurements\n\n\nCounty population recorded in the 2020 Census (Population_2020)\n\n\n\n\nPossible proxy variables\n\n\nRUCC_2023 can be used to see a county’s degree of rurality and metropolitan influence.\n\n\n\n\n\n\n\n\n\n\n\nDocumentation\n\n\n\n\n\n\nDocumentation found\n\n\nThe USDA ERS documentation page includes an overview, scope and coverage, methods, code definitions, strengths and limitations, and links to the original data sources.\n\n\n\n\nStated collection details\n\n\nUSDA ERS used data from the 2023 OMB metropolitan classifications, 2020 Census, and American Community Survey commuting data from 2016 to 2020."
+  },
+  {
+    "objectID": "elazarvilensky.html",
+    "href": "elazarvilensky.html",
+    "title": "Data Collection Facts Label",
+    "section": "",
+    "text": "Data Source Facts Label\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource Identity\n\n\n\n\n\n\nSource name\n\n\nIncarceration and Inequality Public Data\n\n\n\n\nDomain/topic\n\n\nCriminal justice\n\n\n\n\nSource type\n\n\nPublic data repository\n\n\n\n\n\n\n\n\n\n\n\nCollection Context\n\n\n\n\n\n\nCollector/producer\n\n\nV V Thompkins in collaboration with the Vera Institute\n\n\n\n\nOriginal purpose\n\n\nResearch, policy monitoring, and public access to information\n\n\n\n\nCollection method\n\n\nPublic records\n\n\n\n\nRecord-creation event\n\n\nUpdates to the primary source data\n\n\n\n\n\n\n\n\n\n\n\nObservation and Scope\n\n\n\n\n\n\nUnit of observation\n\n\nA county\n\n\n\n\nPopulation or objects represented\n\n\nMedian household incomes, incerceration trends, ethnic and racial demographics, gender demographics, and county identifiers\n\n\n\n\nTime period covered\n\n\nPrimarily from 2009 to 2024, with some additional data back to 1950 at the county level and 1970 at the state level\n\n\n\n\nGeographic area coverage\n\n\nThe United States\n\n\n\n\n\n\n\n\n\n\n\nVariables and Data Structure\n\n\n\n\n\n\nMain variables/fields\n\n\nEthnographic population counts, median houshold incomes by county or state, prison populations by gender and race, incarceration trends such as admits and discharges, household size count estimates\n\n\n\n\nData types included\n\n\nNumerical, text, date (year)\n\n\n\n\nDirect measurements\n\n\nFIPS (county codes), population counts, year\n\n\n\n\nPossible proxy variables\n\n\nMedian household income by race, household size estimates, educational attainment, households with public assistance, median rent\n\n\n\n\n\n\n\n\n\n\n\nDocumentation\n\n\n\n\n\n\nDocumentation found\n\n\nMetadata, codebook & methodology, data dictionary, README file\n\n\n\n\nStated collection details\n\n\nCollected from the U.S. Census Bureau, U.S. Bureau of Labor Statistics, and Vera’s Incarceration Trends Dataset"
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Comparative Analysis",
+    "section": "",
+    "text": "General Topic: Criminal Justice\nSpecific RQ: What are the relationships between county, demographics, and punitive outcomes?\nData Set Names:\n\nIncarceration and Inequality Public Data (Elazar)\n2023 Rural Urban Continuum Codes (Jackson)\n\nFrom here on out, categories of analysis will be answered twice, with “1.” indicating Elazar’s data set, and “2.” indicating Jackson’s data set."
+  },
+  {
+    "objectID": "analysis.html#trustworthinessreputability",
+    "href": "analysis.html#trustworthinessreputability",
+    "title": "Comparative Analysis",
+    "section": "Trustworthiness/reputability",
+    "text": "Trustworthiness/reputability\n\nThere is a lot of missing data, but there is an extensive record of different socioeconomic indicators. There are reputable sources in the collection (US Census, Bureau of Labor Statistics, and Vera Institute). The person who created the repo also works with Vera.\nThe 2023 Rural Urban Continuum Codes does not actually contain any information on incarceration or socioeconomic status. It is a trustworthy dataset because the data was gathered and processed by the US Government."
+  },
+  {
+    "objectID": "analysis.html#degree-of-relevance-to-research-question",
+    "href": "analysis.html#degree-of-relevance-to-research-question",
+    "title": "Comparative Analysis",
+    "section": "Degree of relevance to research question",
+    "text": "Degree of relevance to research question\n\nPrison admits and discharges could be used to describe inmate “flow” on a yearly basis. Admits and discharges also vary by race and gender. As for conclusions that could be drawn, the estimates on income do not give income distributions, which makes it harder to assess more specific differences between counties (such as standard deviation).\nIn order to draw conclusions from my data set alone you would need to add actual incarceration data to the dataset. I don’t think that the collection method would lead someone to draw any bias conclusions because the data was taken from the 2020 census so it was a complete collection."
+  },
+  {
+    "objectID": "analysis.html#ethical-soundness",
+    "href": "analysis.html#ethical-soundness",
+    "title": "Comparative Analysis",
+    "section": "Ethical soundness",
+    "text": "Ethical soundness\n\nThe standards for enrollment in welfare programs could be different over the years present in the dataset, indicating historical bias. Census data also suffers from systemic issues such as gerrymandering to count prison populations in the county population rather than prisoners’ hometowns, missing or ignoring immigrant communities, and historical undercounting of minorities and overcounting of white communities.\nA source of bias that could maybe be drawn from my source is how they handled some of the codes, where if there is a small county but it falls within a large metro area it will get a RUCC which might not make sense based on the county population. This can lead to inaccurate understanding when first looking at the RUCC codes."
+  },
+  {
+    "objectID": "analysis.html#scope",
+    "href": "analysis.html#scope",
+    "title": "Comparative Analysis",
+    "section": "Scope",
+    "text": "Scope\n\nEvery dataset in this source (from the folder labeled “counties”) contains rows that represent individual counties in the United States, coded by their FIPS codes. The variability in this repository allows for geographic analysis of a variety of SES conditions like education and income versus cost of living.\nMy dataset is actually lumped 3 rows at a time. Each entry is identified by the FIPS code but then it goes on to include the population of the county, the RUCC of that county and then the description as to what the RUCC code actually means. The other dataset we have is much more relevant to our question. I chose my dataset because it can be used to support our main dataset. Using both of our datasets someone could make generalized claims about incarceration rates based on factors such as population of a county, and its county description such as if it is a metro area or not because I think that can play a role in it."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Investigating a Dataset’s Ingredients",
+    "section": "",
+    "text": "We are focusing on geographic and demographic relationships between punitive outcomes. We chose this topic area because we wanted to look at associations between factors such as income, racial demographics, or population sizes in California and incarceration rates."
+  },
+  {
+    "objectID": "index.html#topic-area",
+    "href": "index.html#topic-area",
+    "title": "Investigating a Dataset’s Ingredients",
+    "section": "",
+    "text": "We are focusing on geographic and demographic relationships between punitive outcomes. We chose this topic area because we wanted to look at associations between factors such as income, racial demographics, or population sizes in California and incarceration rates."
+  },
+  {
+    "objectID": "index.html#research-question",
+    "href": "index.html#research-question",
+    "title": "Investigating a Dataset’s Ingredients",
+    "section": "Research Question",
+    "text": "Research Question\nWhat are the relationships between county and demographics and punitive outcomes?"
+  }
+]
