@@ -22,7 +22,7 @@ website:
         - text: "Elazar V. Summerfeld"
           href: elazarvilensky.qmd
       - text: "Comparative Analysis"
-        href: comparison.qmd
+        href: analysis.qmd
 
 format:
   html:
