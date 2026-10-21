@@ -1,0 +1,48 @@
+---
+title: "Comparative Analysis"
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+# General Information
+
+General Topic: Criminal Justice
+
+Specific RQ: What are the relationships between county, demographics, and punitive outcomes?
+
+Data Set Names:
+
+1. Incarceration and Inequality Public Data (Elazar)
+2. 2023 Rural Urban Continuum Codes (Jackson)
+
+From here on out, categories of analysis will be answered twice, with "1."
+indicating Elazar's data set, and "2." indicating Jackson's data set.
+
+# Comparison
+
+## Trustworthiness/reputability
+
+1. There is a lot of missing data, but there is an extensive record of different socioeconomic indicators. There are reputable sources in the collection (US Census, Bureau of Labor Statistics, and Vera Institute). The person who created the repo also works with Vera.
+
+2. The 2023 Rural Urban Continuum Codes does not actually contain any information on incarceration or socioeconomic status. It is a trustworthy dataset because the data was gathered and processed by the US Government.
+
+## Degree of relevance to research question
+
+1. Prison admits and discharges could be used to describe inmate “flow” on a yearly basis. Admits and discharges also vary by race and gender. As for conclusions that could be drawn, the estimates on income do not give income distributions, which makes it harder to assess more specific differences between counties (such as standard deviation).
+
+2. In order to draw conclusions from my data set alone you would need to add actual incarceration data to the dataset. I don't think that the collection method would lead someone to draw any bias conclusions because the data was taken from the 2020 census so it was a complete collection.
+
+## Ethical soundness
+
+1. The standards for enrollment in welfare programs could be different over the years present in the dataset, indicating historical bias. Census data also suffers from systemic issues such as gerrymandering to count prison populations in the county population rather than prisoners' hometowns, missing or ignoring immigrant communities, and historical undercounting of minorities and overcounting of white communities.
+
+2. A source of bias that could maybe be drawn from my source is how they handled some of the codes, where if there is a small county but it falls within a large metro area it will get a RUCC which might not make sense based on the county population. This can lead to inaccurate understanding when first looking at the RUCC codes.
+
+## Scope
+
+1. Every dataset in this source (from the folder labeled “counties”) contains rows that represent individual counties in the United States, coded by their FIPS codes. The variability in this repository allows for geographic analysis of a variety of SES conditions like education and income versus cost of living.
+
+2. My dataset is actually lumped 3 rows at a time. Each entry is identified by the FIPS code but then it goes on to include the population of the county, the RUCC of that county and then the description as to what the RUCC code actually means. The other dataset we have is much more relevant to our question. I chose my dataset because it can be used to support our main dataset. Using both of our datasets someone could make generalized claims about incarceration rates based on factors such as population of a county, and its county description such as if it is a metro area or not because I think that can play a role in it.
